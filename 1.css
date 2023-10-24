@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #00fa53;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Center the top stop button */
+.top-button {
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+/* Center the bottom stop button */
+.bottom-button {
+    align-self: center;
+    margin-top: 10px;
+}
+
+#soundboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.sound-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sound-button {
+    padding: 6px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.sound-button:hover {
+    background-color: #0c3b5a;
+}
+
+.red-button {
+    padding: 6px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.blue-buttons {
+    padding: 8px 50px;
+    background-color: #0f0350;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.dnc-button {
+    padding: 6px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+}
