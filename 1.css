@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #00fa53;
+    background-image: linear-gradient( #001f3f, #0F4D92);
 }
 
 .container {
@@ -49,7 +49,7 @@ body, html {
 }
 
 .sound-button:hover {
-    background-color: #0c3b5a;
+    background-color: #b60070;
 }
 
 .red-button {
@@ -79,4 +79,15 @@ body, html {
     cursor: pointer;
     border-radius: 10px;
     font-size: 14px;
+}
+
+.box {
+    border: none;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#FF69B4, #FFB6C1);
 }
