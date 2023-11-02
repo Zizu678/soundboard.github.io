@@ -2,7 +2,8 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient( #001f3f, #0F4D92);
+    /* background-image: linear-gradient( #001f3f, #0F4D92); */
+    background-color: white;
 }
 
 .container {
@@ -82,12 +83,14 @@ body, html {
 }
 
 .box {
-    border: none;
+    border: 2px solid #b6b3b3;
+    box-shadow: 3px 5px #b6b3b3;
     border-radius: 20px;
     padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(#FF69B4, #FFB6C1);
+    /* background-image: linear-gradient(#FF69B4, #FFB6C1); */
+    background-color: #f3f0f0;
 }
